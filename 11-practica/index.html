@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Adivina el número</title>
+  <style>
+    #resultado {
+      font-weight: bold;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Juego: Adivina el número (1 al 100)</h2>
+
+  <label for="intento">Ingresa tu intento:</label>
+  <input type="number" id="intento" min="1" max="100">
+  <button onclick="adivinar()">ADIVINAR</button>
+
+  <p id="resultado"></p>
+  <p id="intentos-restantes"></p>
+
+  <script src="11-practica.js">
+
+  </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tabla de multiplicar personalizada</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    td {
+      border: 1px solid black;
+      padding: 8px 12px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h2>Tabla de multiplicar personalizada</h2>
+
+  <label for="numero">Número base:</label>
+  <input type="number" id="numero" placeholder="Ej. 2"><br><br>
+
+  <label for="limite">Hasta qué número multiplicar:</label>
+  <input type="number" id="limite" placeholder="Ej. 4"><br><br>
+
+  <button onclick="mostrarTabla()">MOSTRAR TABLA</button>
+
+  <div id="resultado"></div>
+
+  <script src="10-practica.js"></script>
+</body>
+</html>
